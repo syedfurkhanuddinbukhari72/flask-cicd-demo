@@ -21,7 +21,7 @@ jobs:
 
       - name: Build Image
         run: |
-         docker build -t syedfurkhan1234/flask-cicd-demo:latest .
+          docker build -t syedfurkhan1234/flask-cicd-demo:latest .
 
       - name: Push Image
         run: |
